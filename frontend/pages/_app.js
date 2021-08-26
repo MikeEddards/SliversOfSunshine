@@ -1,6 +1,7 @@
 import App from "next/app"
 import Head from "next/head"
 import Layout from "../components/Layout"
+import NextImage from "../components/Image"
 import { getCategories } from "../utils/api"
 import "../styles/index.css"
 

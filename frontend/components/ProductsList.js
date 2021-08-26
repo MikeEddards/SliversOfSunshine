@@ -7,7 +7,7 @@ const ProductsList = ({ products }) => {
       {products.map((_product) => (
         <div
           key={_product.id}
-          className="border rounded-lg bg-gray-100 hover:shadow-lg shadow-md"
+          className="border border-gray-500 hover:border-gray-900 rounded-lg bg-gray-200 hover:shadow-blackShadow "
         >
           <Link href={`/products/${_product.slug}`}>
             <a>
